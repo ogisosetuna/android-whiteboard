@@ -1,3 +1,17 @@
+package com.app.superxlcr.mypaintboard.controller;
+
+import android.content.Context;
+import android.os.Handler;
+import android.os.Message;
+
+import com.app.superxlcr.mypaintboard.model.Line;
+import com.app.superxlcr.mypaintboard.model.Point;
+import com.app.superxlcr.mypaintboard.model.Protocol;
+import com.app.superxlcr.mypaintboard.utils.ProtocolListener;
+
+import org.json.JSONArray;
+import org.json.JSONException; 
+
 public class MainActivity extends Activity {
  private ImageView iv;
  private Bitmap baseBitmap;
